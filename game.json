@@ -1,0 +1,40 @@
+{
+  "name": "My Card Game",
+  "deckBuilding": {
+    "mainFilters": [ "type", "cost" ],
+    "formats": [
+      {
+        "title": "Standard format",
+        "gameplay": "Standard"
+      }
+    ]
+  },
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 5
+      },
+      "newTurn": {
+        "drawPerTurn": 1
+      },
+      "countersStartingValues": [],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [ { "section": "Board" } ]
+        },
+        "sectionsDict": {
+          "Board": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        }
+      }
+    }
+  },
+  "cards": {
+    "dataUrl": "https://example.com/cards.json",
+    "cardBack": "https://example.com/card-back.jpg"
+  }
+}
