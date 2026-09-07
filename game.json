@@ -34,7 +34,7 @@
     }
   },
   "cards": {
-    "dataUrl": "https://example.com/cards.json",
-    "cardBack": "https://example.com/card-back.jpg"
+    "dataUrl": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardList.json",
+    "cardBack": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardBack.json"
   }
 }

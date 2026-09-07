@@ -1,0 +1,16 @@
+{
+  "cardId": {
+    "id": "cardId",
+    "face": {
+      "front": {
+        "name": { "name": "cardName" },
+        "type": "cardType",
+        "cost": 3,
+        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.json"
+      }
+    },
+    "name": "cardName",
+    "type": "cardType",
+    "cost": 3
+  }
+}
