@@ -7,7 +7,7 @@
         "type": "Emblem",
         "cost": "",
         "cost2": "",
-        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
+        "image": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/cardFront.png"
       }
     },
     "name": "Emblem M",
@@ -23,7 +23,7 @@
         "type": "Leader",
         "cost": "0",
         "cost2": "0",
-        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
+        "image": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/cardFront.png"
       }
     },
     "name": "Leader M1",
@@ -41,7 +41,7 @@
         "type": "Leader",
         "cost": "0",
         "cost2": "0",
-        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
+        "image": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/cardFront.png"
       }
     },
     "name": "Leader M2",
