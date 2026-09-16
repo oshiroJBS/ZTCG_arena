@@ -131,6 +131,6 @@
 
   "cards": {
     "dataUrl": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardList.json",
-    "cardBack": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardBack.json"
+    "cardBack": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardBack.png"
   }
 }

@@ -1,16 +1,56 @@
 {
-  "cardId": {
-    "id": "cardId",
+  "1": {
+    "id": 1,
     "face": {
       "front": {
-        "name": { "name": "cardName" },
-        "type": "cardType",
-        "cost": 3,
-        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.json"
+        "name": "Emblem M",
+        "type": "Emblem",
+        "cost": "",
+        "cost2": "",
+        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
       }
     },
-    "name": "cardName",
-    "type": "cardType",
-    "cost": 3
+    "name": "Emblem M",
+    "type": "Emblem",
+    "crystallize": "",
+    "expand": ""
+  },
+  "2": {
+    "id": 2,
+    "face": {
+      "front": {
+        "name": "Leader M1",
+        "type": "Leader",
+        "cost": "0",
+        "cost2": "0",
+        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
+      }
+    },
+    "name": "Leader M1",
+    "type": "Leader",
+    "power": "2",
+    "defense": "0",
+    "crystallize": "0",
+    "expand": "0"
+  },
+  "3": {
+    "id": 3,
+    "face": {
+      "front": {
+        "name": "Leader M2",
+        "type": "Leader",
+        "cost": "0",
+        "cost2": "0",
+        "image": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/cardFront.png"
+      }
+    },
+    "name": "Leader M2",
+    "type": "Leader",
+    "power": "3",
+    "defense": "0",
+    "crystallize": "0",
+    "expand": "0"
   }
 }
+
+        
