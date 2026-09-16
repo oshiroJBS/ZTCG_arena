@@ -129,7 +129,7 @@
   "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/gameTest.jsx"
 ],
 "cards": {
-  "dataUrl": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardList.json",
+  "dataUrl": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/refs/heads/main/CardList.json",
   "cardBack": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/CardBack.png"
 }
 }
