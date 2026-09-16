@@ -1,38 +1,134 @@
-{
-  "name": "My Card Game",
+{ //name,faction,type,crystallize,expand,power,defense,keyWords,textBox
+  "name": "ZTCG",
   "deckBuilding": {
-    "mainFilters": [ "type", "cost" ],
+    "mainFilters": [ "type", "crystallize", "expand" ],
     "formats": [
       {
-        "title": "Standard format",
-        "gameplay": "Standard"
+        "title": "Standard",
+        "gameplay": "Standard",
+        "customCategories": [
+          "Emblem"
+        ]
       }
     ]
   },
+
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "startingHandSize": 5
+        "startingHandSize": 5,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "info": "Put back as many cards as you want.",
+          "steps": [
+            "toBottom",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0,
+            "max": 5
+          }
+        }
       },
       "newTurn": {
+        "drawOnStart": false,
         "drawPerTurn": 1
       },
-      "countersStartingValues": [],
+      "countersStartingValues": [ 20 ],
+
       "sections": {
         "layout": {
           "direction": "column",
-          "content": [ { "section": "Board" } ]
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                { "section": "Emblem1" },
+                { "section": "Emblem2" },
+                { "section": "FrontRow1" },
+                { "section": "FrontRow2" }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                { "section": "BackRaw1" },
+                { "section": "BackRaw2" },
+                { "section": "BackRaw3" },
+                { "section": "BackRaw4" }
+              ]
+            },
+            { "section": "Cristals" }
+          ]
         },
         "sectionsDict": {
-          "Board": {
+          "Emblem1": {
             "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "EMBLEM",
+            "enterTapped": true
+          },
+          "Emblem2": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "EMBLEM",
+            "enterTapped": true
+          },
+          "FrontRow1": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "FRONT"
+          },
+          "FrontRow2": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "FRONT"
+          },
+          "BackRaw1": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "BACK"
+          },
+          "BackRaw2": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "BACK"
+          },
+          "BackRaw3": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "BACK"
+          },
+          "BackRaw4": {
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "displayedTitle": "BACK"
+          },
+          "Cristals": {
+            "isHidden": "yes",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "START",
+            "displayedTitle": "Cristallize",
+            "onClick": "await BounceCristals()"
           }
         }
       }
     }
   },
+  "scriptsUrls": [
+    "https://github.com/oshiroJBS/ZTCG_arena/blob/main/gameTest.jsx"
+  ],
+
   "cards": {
     "dataUrl": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardList.json",
     "cardBack": "https://github.com/oshiroJBS/ZTCG_arena/blob/main/CardBack.json"
