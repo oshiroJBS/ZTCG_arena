@@ -1,4 +1,4 @@
-{ //name,faction,type,crystallize,expand,power,defense,keyWords,textBox
+{
   "name": "ZTCG",
   "deckBuilding": {
     "mainFilters": [ "type", "crystallize", "expand" ],
