@@ -128,8 +128,8 @@
 "scriptsUrls": [
   "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/scripts.jsx"
 ],
-"cards": {
-  "dataUrl": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/refs/heads/main/CardList.json",
-  "cardBack": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/card_png/CardBack.png"
-}
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/refs/heads/main/CardList.json",
+    "cardBack": "https://raw.githubusercontent.com/oshiroJBS/ZTCG_arena/main/card_png/templates/CardBack.png"
+  }
 }
